@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  session:
+    timeout: 10
+  tomcat:
+    uri-encoding: utf8
+
+spring:
+  data:
+    neo4j:
+      username: neo4j
+      password: neo4j
+neo4j:
+  # 'blot' , 'url'  or  'local'
+  mode: local
+  uri: http://localhost:7474
+  blot: bolt://localhost:7687
+
+hive:
+  # hive log job dir
+  logdir: todo
+  # hive monitor api
+  monitor: todo
+

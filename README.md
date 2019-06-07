@@ -1,5 +1,7 @@
 ## 项目介绍
 ### 项目模块介绍
+* lineage-assemblies
+    * Assemblies 打包模块,用来配置项目打包
 * lineage-dao
     * 数据对象模块,用来与图数据库进行交互
 * lineage-model

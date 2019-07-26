@@ -1,9 +1,11 @@
 server:
   port: 8080
-  session:
-    timeout: 10
+
   tomcat:
     uri-encoding: utf8
+  servlet:
+    session:
+      timeout: 10
 
 spring:
   data:

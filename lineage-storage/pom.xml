@@ -9,7 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lineage-dao</artifactId>
+    <artifactId>lineage-storage</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>lineage-neo4j</module>
+    </modules>
 
 
 </project>
